@@ -17,10 +17,10 @@
       ]
     },
     {
-      "text": "Su Fedora si installa fdupes con `yum install fdupes`.",
+      "text": "Su Fedora si installa fdupes con `dnf install fdupes`.",
       "tags": [
         "fedora",
-        "yum",
+        "dnf",
         "fdupes"
       ]
     },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "text": "Nell'interfaccia di `fdupes --delete` si digita `h` e invio per visualizzare l'elenco dei comandi disponibili.",
+      "text": "`fdupes -h` (o `fdupes --help`) mostra tutte le opzioni disponibili del comando.",
       "tags": [
         "fdupes"
       ]
@@ -71,68 +71,68 @@
       ]
     },
     {
-      "text": "Nell'output di `fdupes --delete` il segno `+` marca i file da conservare e il segno `-` quelli da eliminare.",
+      "text": "Con `fdupes --delete` il prompt chiede quali file preservare, eliminando gli altri del gruppo duplicato.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In `fdupes --delete` si conserva un file con `Maiuscolo + destra` e lo si elimina con `Maiuscolo + sinistra`.",
+      "text": "Con `fdupes --delete --plain` si usa un prompt testuale a righe, compatibile con il comportamento classico di fdupes.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In `fdupes --delete` il comando `rg` resetta la selezione di un intero gruppo, mentre `?` resetta il singolo file.",
+      "text": "Con `fdupes --delete --noprompt` si conserva automaticamente il primo file di ogni gruppo e si eliminano gli altri senza prompt.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In `fdupes --delete` digitando `all` si conservano tutti i duplicati di un gruppo senza eliminarne nessuno.",
+      "text": "Con `fdupes --immediate` i duplicati vengono eliminati appena trovati e l'opzione implica `--noprompt`.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In fdupes `sel testo` seleziona i file che contengono quel testo nel percorso.",
+      "text": "Con `fdupes --sameline` ogni gruppo di duplicati viene stampato su una singola riga.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In fdupes `selb` seleziona i file il cui percorso inizia con un testo, `sele` quelli che finiscono con esso e `selm` quelli che corrispondono esattamente.",
+      "text": "Con `fdupes --size` e `fdupes --time` puoi mostrare rispettivamente dimensione e data di modifica accanto ai duplicati.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In fdupes, dopo una selezione, `ks` marca i file con `+`, `ds` con `-` e `rs` ne elimina i tag.",
+      "text": "Con `fdupes --order=name|time|ctime` puoi ordinare i file duplicati per nome o timestamp.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In fdupes `isel` inverte la selezione corrente e `csel` deseleziona tutti i file.",
+      "text": "Con `fdupes --reverse` inverti l'ordine usato nella visualizzazione dei risultati.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In fdupes il comando `selr` consente di selezionare i file tramite espressioni regolari.",
+      "text": "Con `fdupes --log=FILE` puoi salvare su file le scelte di eliminazione fatte durante `--delete`.",
       "tags": [
         "fdupes",
-        "regex"
+        "log"
       ]
     },
     {
-      "text": "In `fdupes --delete` i comandi `quit` o `exit` chiudono senza applicare modifiche.",
+      "text": "Con `fdupes --deferconfirmation` la conferma byte-per-byte dei duplicati viene rimandata al momento della cancellazione.",
       "tags": [
         "fdupes"
       ]
     },
     {
-      "text": "In `fdupes --delete` si applicano le eliminazioni con il comando `prune` o premendo il tasto `Canc`.",
+      "text": "Con `fdupes --cache` puoi velocizzare confronti successivi memorizzando le firme dei file in un database.",
       "tags": [
         "fdupes"
       ]
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "text": "In `fdupes --delete` il tasto backspace non funziona per correggere un comando: occorre spostare il cursore sul carattere errato e premere `Canc`.",
+      "text": "Con `fdupes --symlinks` si segue anche il contenuto delle directory raggiunte tramite link simbolici.",
       "tags": [
         "fdupes",
         "terminale"
@@ -1730,7 +1730,7 @@
       ]
     },
     {
-      "text": "`ln -sf /percorso/completo/file /percorso/collegamento` crea un collegamento simbolico, e il percorso sorgente deve essere assoluto perché funzioni correttamente.",
+      "text": "`ln -sf sorgente collegamento` crea o aggiorna un link simbolico; la sorgente puo' essere assoluta o relativa.",
       "tags": [
         "linux",
         "filesystem",
@@ -2486,7 +2486,7 @@
       ]
     },
     {
-      "text": "Un percorso è montato in bind quando è in realtà un collegamento a un'altra cartella del file system.",
+      "text": "Un bind mount espone lo stesso contenuto di una directory in un altro percorso del file system, senza copiare i dati.",
       "tags": [
         "linux",
         "filesystem"
@@ -2500,7 +2500,7 @@
       ]
     },
     {
-      "text": "In `/etc/updatedb.conf` la variabile `PRUNE_NAMES` elenca le estensioni di file da ignorare durante l'indicizzazione.",
+      "text": "In `/etc/updatedb.conf` la variabile `PRUNE_NAMES` elenca pattern o nomi di file/directory da ignorare durante l'indicizzazione.",
       "tags": [
         "linux",
         "terminale"
@@ -2787,7 +2787,7 @@
       ]
     },
     {
-      "text": "Java 16 è uscita ad aprile 2021.",
+      "text": "Java 16 e' uscita a marzo 2021.",
       "tags": [
         "java",
         "storia"
@@ -2801,14 +2801,14 @@
       ]
     },
     {
-      "text": "Java 11 è una versione LTS (Long Term Support) con supporto agli aggiornamenti di sicurezza fino al 2026.",
+      "text": "Java 11 e' una versione LTS (Long Term Support), ma la durata del supporto dipende dal vendor e dalla distribuzione.",
       "tags": [
         "java",
         "programmazione"
       ]
     },
     {
-      "text": "Il supporto agli aggiornamenti di sicurezza di Java 8 è terminato nel 2019.",
+      "text": "Per Java 8 la fine del supporto di sicurezza dipende dal vendor: alcune distribuzioni lo estendono oltre il 2019.",
       "tags": [
         "java",
         "storia",
@@ -2907,7 +2907,7 @@
       ]
     },
     {
-      "text": "Su Ubuntu OpenJDK si installa con `apt-get install openjdk-jdk`.",
+      "text": "Su Ubuntu OpenJDK si installa indicando la versione, ad esempio `apt install openjdk-17-jdk`.",
       "tags": [
         "java",
         "ubuntu"
@@ -2935,7 +2935,7 @@
       ]
     },
     {
-      "text": "GraalVM si basa sulle versioni LTS di Java, quindi la più recente disponibile è basata su Java 11.",
+      "text": "GraalVM e' disponibile per piu' versioni LTS di Java (ad esempio 17 e 21), quindi non e' limitata a Java 11.",
       "tags": [
         "java",
         "programmazione"
@@ -6010,7 +6010,7 @@
       ]
     },
     {
-      "text": "Assegnando valori espliciti a un'enumerazione TypeScript si perde il reverse mapping tra chiave e valore.",
+      "text": "Nelle enum numeriche di TypeScript il reverse mapping resta disponibile anche con valori espliciti; nelle string enum non e' previsto.",
       "tags": [
         "typescript"
       ]
@@ -8102,7 +8102,7 @@
       ]
     },
     {
-      "text": "Un backup periodico via shell si ottiene con `while(true); do sleep 1h; rsync -av --delete /cartella/ /cartellacopia; done`.",
+      "text": "Un backup periodico via shell si ottiene con `while true; do sleep 1h; rsync -av --delete /cartella/ /cartellacopia; done`.",
       "tags": [
         "rsync",
         "backup",
@@ -20508,7 +20508,7 @@
       ]
     },
     {
-      "text": "Un ciclo `while(true); do sleep 1m; sensors; done` ripete un comando a intervalli regolari nella shell.",
+      "text": "Un ciclo `while true; do sleep 1m; sensors; done` ripete un comando a intervalli regolari nella shell.",
       "tags": [
         "bash",
         "linux"
@@ -28911,7 +28911,7 @@
       ]
     },
     {
-      "text": "Nella modalita' interattiva di `fdupes --delete` si scrive `prune` per eliminare i file marcati, `all` per conservarli tutti, `exit` per uscire senza modifiche.",
+      "text": "Nella modalita' di `fdupes --delete` il programma chiede quali file preservare in ogni gruppo di duplicati, eliminando gli altri.",
       "tags": [
         "fdupes",
         "linux"
