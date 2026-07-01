@@ -2404,7 +2404,7 @@
       ]
     },
     {
-      "text": "Su Archlinux il pacchetto delle emoji Noto è `noto-fonts-emoji`, disponibile solo nella versione non a colori.",
+      "text": "Su Archlinux il pacchetto delle emoji Noto è `noto-fonts-emoji`, che fornisce le emoji a colori (Google Noto Color Emoji).",
       "tags": [
         "font",
         "archlinux",
@@ -2766,7 +2766,7 @@
       ]
     },
     {
-      "text": "Dalla versione 10 Java include `jshell`, un interprete interattivo che esegue codice a riga di comando istruzione per istruzione.",
+      "text": "Dalla versione 9 Java include `jshell`, un interprete interattivo che esegue codice a riga di comando istruzione per istruzione.",
       "tags": [
         "java",
         "programmazione"
@@ -3965,7 +3965,7 @@
       ]
     },
     {
-      "text": "In Java accedere a un indice fuori dai limiti di un array genera un errore `IndexOutOfBound`.",
+      "text": "In Java accedere a un indice fuori dai limiti di un array genera un errore `ArrayIndexOutOfBoundsException`.",
       "tags": [
         "java",
         "array"
@@ -4983,7 +4983,7 @@
       ]
     },
     {
-      "text": "`AllowGroup` in `sshd_config` crea una whitelist di gruppi utente anziché di singoli utenti.",
+      "text": "`AllowGroups` in `sshd_config` crea una whitelist di gruppi utente anziché di singoli utenti.",
       "tags": [
         "ssh",
         "sicurezza"
@@ -11050,7 +11050,7 @@
       ]
     },
     {
-      "text": "`sgdisk -s /dev/sda` tenta di convertire una partizione da MBR a GPT, ma è un'operazione rischiosa.",
+      "text": "`sgdisk -g /dev/sda` tenta di convertire una partizione da MBR a GPT, ma è un'operazione rischiosa.",
       "tags": [
         "partizionamento",
         "gpt",
@@ -13973,7 +13973,7 @@
       ]
     },
     {
-      "text": "Su ArchLinux si installa Node.js con `pacman install nodejs`.",
+      "text": "Su ArchLinux si installa Node.js con `pacman -S nodejs`.",
       "tags": [
         "nodejs",
         "archlinux"
@@ -14873,7 +14873,7 @@
       ]
     },
     {
-      "text": "Su Archlinux xhost si installa con `pacman -S xserver-xhost`.",
+      "text": "Su Archlinux xhost si installa con `pacman -S xorg-xhost`.",
       "tags": [
         "archlinux",
         "xorg"
@@ -22243,7 +22243,7 @@
       ]
     },
     {
-      "text": "Windows usa codifica testo CP1251 con fine linea CR+LF, mentre UNIX/Linux usa UTF-8 con fine linea LF.",
+      "text": "Windows usa codifica testo CP1252 con fine linea CR+LF, mentre UNIX/Linux usa UTF-8 con fine linea LF.",
       "tags": [
         "windows",
         "linux",
@@ -23032,7 +23032,7 @@
       ]
     },
     {
-      "text": "Il comando `pkill -INFO -x dd` mostra a video quanti byte ha gia trasferito un processo `dd` in corso, sfruttando la gestione del segnale INFO.",
+      "text": "Il comando `pkill -USR1 -x dd` mostra a video quanti byte ha gia trasferito un processo `dd` in corso, sfruttando la gestione del segnale USR1.",
       "tags": [
         "linux",
         "dd",
@@ -24539,14 +24539,14 @@
       ]
     },
     {
-      "text": "Il non breaking space ha escape code ` ` e si può stampare con `echo \" \"`.",
+      "text": "Il non breaking space ha codice HTML `&nbsp;` e in bash lo si genera con `$'\\xa0'`.",
       "tags": [
         "bash",
         "encoding"
       ]
     },
     {
-      "text": "Per separare campi usando il non breaking space come delimitatore si usa `awk -F $' '`.",
+      "text": "Per separare campi usando il non breaking space come delimitatore si usa `awk -F $'\\xa0'`.",
       "tags": [
         "awk",
         "encoding"
@@ -30986,7 +30986,7 @@
       ]
     },
     {
-      "text": "`faketime` esegue un programma in un ambiente in cui la data di sistema è quella specificata, es. `faketime '2012-21-12' date`.",
+      "text": "`faketime` esegue un programma in un ambiente in cui la data di sistema è quella specificata, es. `faketime '2012-12-21' date`.",
       "tags": [
         "linux",
         "faketime"
@@ -31039,7 +31039,7 @@
       ]
     },
     {
-      "text": "`sgdisk -s /dev/sda` converte un disco da MBR a GPT, dopodiché occorre reinstallare il bootloader.",
+      "text": "`sgdisk -g /dev/sda` converte un disco da MBR a GPT, dopodiché occorre reinstallare il bootloader.",
       "tags": [
         "linux",
         "dischi",
@@ -31488,7 +31488,7 @@
       ]
     },
     {
-      "text": "`iperf3 -s` avvia iperf3 in modalita server in ascolto di client; la porta predefinita e 5001 ed e modificabile con `-p`.",
+      "text": "`iperf3 -s` avvia iperf3 in modalita server in ascolto di client; la porta predefinita e 5201 ed e modificabile con `-p`.",
       "tags": [
         "iperf3",
         "rete"
@@ -35824,7 +35824,7 @@
       ]
     },
     {
-      "text": "Su Ubuntu/Debian le sorgenti APT risiedono in `/etc/apt/source.list` e nei file dentro `/etc/apt/source.list.d`.",
+      "text": "Su Ubuntu/Debian le sorgenti APT risiedono in `/etc/apt/sources.list` e nei file dentro `/etc/apt/sources.list.d`.",
       "tags": [
         "apt",
         "ubuntu",
@@ -38271,7 +38271,7 @@
       ]
     },
     {
-      "text": "Per il forwarding X11 via SSH si imposta `ForwardX11 yes` nel file `/etc/ssh_config` del client.",
+      "text": "Per il forwarding X11 via SSH si imposta `ForwardX11 yes` nel file `/etc/ssh/ssh_config` del client.",
       "tags": [
         "ssh",
         "x11",
@@ -38279,7 +38279,7 @@
       ]
     },
     {
-      "text": "Per abilitare il forwarding X11 sul server SSH si aggiungono `X11Forwarding yes` e `AllowTcpForwarding yes` al file `/etc/sshd_config`.",
+      "text": "Per abilitare il forwarding X11 sul server SSH si aggiungono `X11Forwarding yes` e `AllowTcpForwarding yes` al file `/etc/ssh/sshd_config`.",
       "tags": [
         "ssh",
         "x11",
@@ -38326,7 +38326,7 @@
       ]
     },
     {
-      "text": "Su Steam Deck si sblocca il file system in scrittura con `sudo steamos-readonly enable` e si ripristina il read-only con `sudo steamos-readonly disable`.",
+      "text": "Su Steam Deck si sblocca il file system in scrittura con `sudo steamos-readonly disable` e si ripristina il read-only con `sudo steamos-readonly enable`.",
       "tags": [
         "steamdeck",
         "steamos",
