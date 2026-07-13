@@ -39844,6 +39844,16 @@
         "password",
         "chage"
       ]
+    },
+    {
+    	"text": "Su terminale di claude premi ALT+INVIO per andare a capo, oppure Option su MAC",
+    	"tags": [
+	"claude",
+	"terminale",
+	"linux",
+	"windows",
+	"macosx"
+    	]
     }
   ]
 }
