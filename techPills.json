@@ -39846,7 +39846,7 @@
       ]
     },
     {
-    	"text": "Su terminale di claude premi ALT+INVIO per andare a capo, oppure Option su MAC",
+    	"text": "Su terminale di claude premi ALT+INVIO, oppure scrivi '\\' e poi 'Invio' per andare a capo, oppure Option su MAC",
     	"tags": [
 	"claude",
 	"terminale",
