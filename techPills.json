@@ -1,6 +1,14 @@
 {
   "techPills": [
-    {
+     {
+      "text":"Se usi CODEX o CLAUDE da terminale puoi cliccare CTRL+g per aprire il tuo editor di testo preferito da terminale e completare li il prompt in tutta calma prima di inviarlo",
+      "tags":[
+      	"linux",
+      	"terminale",
+      	"ai"
+      ]
+     }
+    ,{
       "text": "`fdupes` e' un software da terminale che cerca file duplicati ed e' presente nella maggior parte delle repository delle distribuzioni Linux.",
       "tags": [
         "linux",
