@@ -1,5 +1,16 @@
 {
   "techPills": [
+  	{
+	  "text": "Ti serve salvare qualche dato online senza creare un database? Prova MantleDB (https://mantledb.sh): un servizio gratuito utilizzabile tramite API REST, senza registrazione o autenticazione. Puoi salvare un JSON con curl -X POST https://mantledb.sh/v2/{namespace}/{path} -H 'Content-Type: application/json' -d '{\"ciao\":\"Ciao\"}' e recuperarlo con curl https://mantledb.sh/v2/{namespace}/{path}. Namespace e path li scegli tu! Ideale per test, prototipi e piccoli stati persistenti. Attenzione: i namespace non protetti sono pubblici, quindi evita dati sensibili.",
+	  "tags": [
+	    "database",
+	    "api",
+	    "rest",
+	    "json",
+	    "sviluppo",
+	    "tools"
+	  ]
+     },
      {
       "text":"Se usi CODEX o CLAUDE da terminale puoi cliccare CTRL+g per aprire il tuo editor di testo preferito da terminale e completare li il prompt in tutta calma prima di inviarlo",
       "tags":[
