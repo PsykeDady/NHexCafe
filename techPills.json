@@ -14112,7 +14112,7 @@
         "javascript",
         "variabili"
       ]
-    },
+v    },
     {
       "text": "In JavaScript una variabile dichiarata ma non assegnata vale `undefined`.",
       "tags": [
@@ -39873,6 +39873,17 @@
 	"windows",
 	"macosx"
     	]
+    },
+    {
+      "text": "con `jq -a . file.json` puoi formattare un JSON convertendo automaticamente tutti i caratteri non ASCII in sequenze Unicode (`\\uXXXX`). Accenti, caratteri cinesi e simboli vengono 'escapati' senza alterare i dati! Ideale per normalizzare file JSON e renderli compatibili con ambienti che richiedono solo caratteri ASCII.",
+      "tags": [
+        "json",
+        "jq",
+        "linux",
+        "terminale",
+        "unicode",
+        "programmazione"
+      ]
     }
   ]
 }

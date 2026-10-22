@@ -1,7 +1,7 @@
 {
   "facts": [
     {
-      "text": "In Giappone anticamente esistevano solo i colori Blu, Rosso, Bianco e Nero. Questo il motivo per cui molte volte il verde è ancora chiamato 'Blu'",
+      "text": "In Giappone anticamente esistevano solo i colori Blu, Rosso, Bianco e Nero. Questo il motivo per cui molte volte il verde \u00e8 ancora chiamato 'Blu'",
       "tags": [
         "Japan",
         "Giappone",
@@ -11,9 +11,9 @@
       ]
     },
     {
-      "text": "Ambarabà, ciccì e coccò. Tre civette sul comò, che facevano... Esatto, l'amore!! La versione originale risale al 1970 ed è un testo di Cesare Segre pubblicato su un numero di 'Strumenti critici'! Attenti alle bufale, quindi!",
+      "text": "Ambarab\u00e0, cicc\u00ec e cocc\u00f2. Tre civette sul com\u00f2, che facevano... Esatto, l'amore!! La versione originale risale al 1970 ed \u00e8 un testo di Cesare Segre pubblicato su un numero di 'Strumenti critici'! Attenti alle bufale, quindi!",
       "tags": [
-        "curiosità",
+        "curiosita",
         "filastrocche",
         "letteratura",
         "bufale",
@@ -25,18 +25,30 @@
       "tags": [
         "storia",
         "scrittura",
-        "curiosità",
+        "curiosita",
         "linguistica"
       ]
     },
     {
-      "text": "La formula risolutiva dell'equazione di terzo grado fu scoperta indipendentemente da Niccolò Fontana, detto Tartaglia per una difficoltà nel parlare causata da una ferita. Tartaglia descrisse tale equazione sotto forma di una bellissima poesia!",
+      "text": "La formula risolutiva dell'equazione di terzo grado fu scoperta indipendentemente da Niccol\u00f2 Fontana, detto Tartaglia per una difficolt\u00e0 nel parlare causata da una ferita. Tartaglia descrisse tale equazione sotto forma di una bellissima poesia!",
       "tags": [
         "matematica",
         "storia",
-        "curiosità",
+        "curiosita",
         "equazioni",
         "Tartaglia"
+      ]
+    },
+    {
+      "text": "\"Lo zenzero pi\u00f9 \u00e8 vecchio, pi\u00f9 \u00e8 piccante\" \u00e8 la traduzione di un famoso proverbio cinese: \u59dc\u8fd8\u662f\u8001\u7684\u8fa3 (ji\u0101ng h\u00e1ish\u00ec l\u01ceo de l\u00e0), che indica come la saggezza derivi dall'esperienza. In Italia diremmo \"Gallina vecchia fa buon brodo\", mentre in inglese \"The older, the wiser\"! La curiosita \u00e8 che, anche letteralmente, lo zenzero tende a diventare pi\u00f9 piccante con la maturazione!",
+      "tags": [
+        "Cina",
+        "cinese",
+        "proverbi",
+        "linguistica",
+        "curiosita",
+        "cultura",
+        "zenzero"
       ]
     }
   ]
