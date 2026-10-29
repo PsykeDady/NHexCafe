@@ -12,6 +12,18 @@
 	  ]
      },
      {
+  "text": "Vuoi cambiare l'autore di tutti i commit di un repository Git, incluso quello iniziale? Usa `git rebase -r --root --exec 'git commit --amend --no-edit --author=\"Nome Cognome <email@dominio.com>\"'`. Il comando riscrive la cronologia preservando i merge commit grazie a `-r`. Attenzione: cambia gli hash dei commit e può richiedere un force push!",
+  "tags": [
+    "git",
+    "rebase",
+    "commit",
+    "terminale",
+    "programmazione",
+    "linux"
+  ]
+}
+
+     {
       "text":"Se usi CODEX o CLAUDE da terminale puoi cliccare CTRL+g per aprire il tuo editor di testo preferito da terminale e completare li il prompt in tutta calma prima di inviarlo",
       "tags":[
       	"linux",
