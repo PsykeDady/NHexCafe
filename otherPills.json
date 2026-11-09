@@ -1,6 +1,33 @@
 {
   "facts": [
     {
+      "text": "Le nocciole pi\u00f9 pregiate sono quelle del Piemonte? Non storicamente! Gi\u00e0 nell'antichit\u00e0, infatti, le nocciole di Avella, in Campania, erano cos\u00ec rinomate che i Romani le chiamavano \"nux avellana\", ovvero \"noce di Avella\". Da qui deriva il nome scientifico del nocciolo, Corylus avellana, e persino il termine italiano \"avellana\", sinonimo di nocciola!",
+      "tags": [
+        "curiosit\u00e0",
+        "botanica",
+        "etimologia",
+        "nocciole",
+        "Piemonte",
+        "Campania",
+        "Avella",
+        "storia",
+        "latino"
+      ]
+    },
+    {
+      "text": "Il Loacker Napolitaner deve il suo nome alla deliziosa napoletana, il dolce a cui si ispira! Il richiamo \u00e8 anche alle pregiate nocciole, originariamente provenienti da Avella, in Campania. La differenza? Al posto dei due biscotti della deliziosa troviamo due cialde di wafer, tipiche della tradizione dolciaria mitteleuropea!",
+      "tags": [
+        "curiosit\u00e0",
+        "gastronomia",
+        "dolci",
+        "Loacker",
+        "Napolitaner",
+        "Napoli",
+        "nocciole",
+        "storia"
+      ]
+    },
+    {
       "text": "In Giappone anticamente esistevano solo i colori Blu, Rosso, Bianco e Nero. Questo il motivo per cui molte volte il verde \u00e8 ancora chiamato 'Blu'",
       "tags": [
         "Japan",
@@ -11,13 +38,15 @@
       ]
     },
     {
-      "text": "Ambarab\u00e0, cicc\u00ec e cocc\u00f2. Tre civette sul com\u00f2, che facevano... Esatto, l'amore!! La versione originale risale al 1970 ed \u00e8 un testo di Cesare Segre pubblicato su un numero di 'Strumenti critici'! Attenti alle bufale, quindi!",
+      "text": "Ambarab\u00e0, cicc\u00ec e cocc\u00f2. Tre civette sul com\u00f2, che facevano... Esatto, l'amore!! Nel 1970 il filologo Cesare Segre f\u00f9 il primo a fissare questa versione della filastrocca in un saggio pubblicato su 'Strumenti critici'. Tuttavia le sue origini sono incerte! Secondo un'ipotesi del linguista Vermondo Brugnatelli, l'incipit deriverebbe addirittura dal latino \"Hanc para ab hac quidquid quodquod\". Una teoria affascinante, ma non dimostrata. Attenti alle bufale, quindi!",
       "tags": [
         "curiosita",
         "filastrocche",
         "letteratura",
         "bufale",
-        "storia"
+        "storia",
+        "linguistica",
+        "latino"
       ]
     },
     {
